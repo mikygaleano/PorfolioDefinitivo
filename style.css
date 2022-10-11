@@ -1,0 +1,40 @@
+/* Contenedor nav */
+.nav_conteiner {
+    display: flex;
+    justify-content: end; /* Lo manda a la derecha */
+    position: sticky; /* Posición pegajosa */
+    top: 0; /* Arriba de todo */
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+/* Contenedor div Logo */
+
+.nav_conteinerLogo img{
+    width: 30%;
+    height: 200px;
+    align-items: center;
+    position: absolute; /* Posición absoluta dependiendo su padre  más cercano
+    relativo */
+    top: -50px;
+    left: 0px;
+}
+
+/* Contenedor nav Menu */
+
+.nav_conteinerMenu {
+    width: 50%; /* Ancho */
+    height: auto; /* Alto */
+    justify-items:center;
+    display: flex;
+    justify-content: space-around; /* Espacio entre el contenedor */
+    position: absolute;
+    right: 30px; /* Derecha */
+    top: 45px;
+}
+
+.nav_conteinerMenu a {
+    text-decoration: none;
+    color: black;
+}
