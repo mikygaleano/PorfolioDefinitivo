@@ -1,5 +1,12 @@
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
+h2 {
+    text-align: center;
+}
 /* Contenedor nav */
 .nav_conteiner {
     display: flex;
@@ -8,7 +15,8 @@
     top: 0; /* Arriba de todo */
     width: 100%;
     height: 100px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    z-index: 10
 }
 
 /* Contenedor div Logo */
