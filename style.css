@@ -21,7 +21,7 @@ h2 {
     top: 0; /* Arriba de todo */
     width: 100%;
     height: 100px;
-    background-color:rgb(211, 130, 104);
+    background-color:rgb(238, 203, 192);
     z-index: 10
 }
 
@@ -57,7 +57,7 @@ h2 {
 }
 
 .nav_conteinerMenu a:hover {
-    background-color: rgba(143, 69, 44, 0.795);;
+    background-color: rgba(207, 156, 140, 0.692);
 }
 
 /* Secciones de la web */
@@ -97,7 +97,7 @@ section {
 }
 
 .div_home1 p {
-    color: rgb(7, 7, 7);
+    color: rgb(3, 0, 0);
     font-family:fantasy;
     font-size: large;
     text-align: center;
@@ -105,6 +105,7 @@ section {
 }
 
 .div_home2 {
+    
     width: 80px;
     height: 80px;
     border-radius: 80px;
@@ -112,11 +113,13 @@ section {
 }
 
 .div_home {
-    width: 206px;
-    height: 90px;
+    background-color: rgba(180, 127, 202, 0.678);
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
     display: block;
     justify-content:center;
-    margin-top: 245px;
+    margin-top: 200px;
     margin-left: 150px;
     /*margin-right: 350px;*/
 }
@@ -128,12 +131,14 @@ section {
     size: 90px;
     width: 200px;
     height: 50px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 15px;
     align-self: center;
-    color: rgb(251, 251, 253);
+    color: rgb(7, 7, 7);
 }
 
 .btn_action {
+    margin-top: 60px;
     margin-left: 30%;
     width: 100px;
     height: 100px;
@@ -142,9 +147,9 @@ section {
     background-color: rgba(255, 179, 80, 0.5);
 }
 
-.btn_action button a:hover {
-    background-color: rgba(118, 126, 12, 0.575);
-    cursor: pointer;
+.btn_action :hover{
+    background-color: rgba(204, 9, 9, 0.575);
+    
 }
 
 .btn_action a {
