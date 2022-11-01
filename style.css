@@ -73,7 +73,7 @@ section {
 
 /* Home */
 .conteiner_Home {
-    background-image: url(img/fondo.jpg);
+    background-image: url(./img/fondo.jpg);
     background-size: 100% 550px;
     background-repeat: no-repeat;
     width: 100%;
