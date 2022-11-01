@@ -6,6 +6,10 @@
     margin: 0px;
 }
 
+body {
+    background-color: rgba(187, 21, 112, 0.966);
+}
+
 a {
     text-decoration: none;
 }
@@ -21,7 +25,7 @@ h2 {
     top: 0; /* Arriba de todo */
     width: 100%;
     height: 100px;
-    background-color:rgb(238, 203, 192);
+    background-color: rgb(247, 214, 204);
     z-index: 10
 }
 
@@ -69,7 +73,7 @@ section {
 
 /* Home */
 .conteiner_Home {
-    background-image: url(/img/fondo.jpg);
+    background-image: url(img/fondo.jpg);
     background-size: 100% 550px;
     background-repeat: no-repeat;
     width: 100%;
@@ -161,7 +165,7 @@ section {
 /* Soy */
 
 .conteiner_Am {
-    background-color: rgb(36, 6, 65);
+    background-color: rgb(247, 214, 204);
 }
 
 .conteiner_Am h3{
