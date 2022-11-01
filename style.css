@@ -100,13 +100,19 @@ section {
     background-color: rgba(255, 0, 149, 0.356);
 }
 
-.div_home1 p {
+.homeRetrato {
+    margin-top: -200px;
+    margin-left: 50px;
+    opacity: 0.85;
+}
+
+/*.div_home1 p {
     color: rgb(3, 0, 0);
     font-family:fantasy;
     font-size: large;
     text-align: center;
     margin-top: 100px;
-}
+}*/
 
 .div_home2 {
     
