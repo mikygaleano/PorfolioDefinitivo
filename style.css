@@ -90,7 +90,8 @@ section {
 .div_home1 {
     width: 350px;
     height: 350px;
-    display: inline;
+    display: flex;
+    justify-content:center;
     justify-content:center;
     align-items: center;
     margin-left: -50px;
@@ -98,12 +99,23 @@ section {
     border-color: white;
     border-radius: 300px;
     background-color: rgba(255, 0, 149, 0.356);
+    position: relative;
+    left: 0;
+    top: 0;
 }
 
 .homeRetrato {
     margin-top: -200px;
+    margin-left: px;
+   /* opacity: 0.75; */
+    position: absolute;
+    z-index: 1;
+}
+.homeRetrato2 {
+    margin-top: -200px;
     margin-left: 50px;
-    opacity: 0.85;
+    /*opacity: 0.80;*/
+    position: absolute;
 }
 
 /*.div_home1 p {
@@ -114,8 +126,7 @@ section {
     margin-top: 100px;
 }*/
 
-.div_home2 {
-    
+.div_home2 { 
     width: 80px;
     height: 80px;
     border-radius: 80px;
@@ -129,8 +140,11 @@ section {
     border-radius: 250px;
     display: block;
     justify-content:center;
-    margin-top: 200px;
-    margin-left: 150px;
+    /*margin-top: 200px;
+    margin-left: 150px;*/
+    top: 200px;
+    left: 600px;
+    position: absolute;
     /*margin-right: 350px;*/
 }
 
@@ -172,12 +186,36 @@ section {
 
 .conteiner_Am {
     background-color: rgb(247, 214, 204);
+    height: 650px;
 }
 
 .conteiner_Am h3{
-    color: white;
+    color: rgb(10, 10, 1);
 }
 
+.img_soy {
+    width: 250px;
+    height: 645px;
+    margin-top: -25px;
+    margin-bottom: -5px;
+}
+
+.cv_redes {
+    margin-top: 100px;
+}
+.cv_presentacion {
+    margin-top: 100px;
+}
+
+.cv_academico {
+    position: relative;
+    left: 500px;
+    bottom: 600px;
+}
+
+.img_soy img{
+    margin-top: -100px;
+}
 
 /* Pie de pagina */
 
