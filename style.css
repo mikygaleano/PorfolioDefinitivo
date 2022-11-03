@@ -8,7 +8,7 @@
 
 body {
     overflow-x: hidden;
-
+    background-color: rgb(247, 214, 204);
 }
 
 
@@ -98,9 +98,9 @@ section {
     align-items: center;
     margin-left: -50px;
     margin-top: 150px;
-    border-color: white;
+    /*border-color: white;
     border-radius: 300px;
-    background-color: rgba(255, 0, 149, 0.356);
+    background-color: rgba(255, 0, 149, 0.356);*/
     position: relative;
     left: 0;
     top: 0;
@@ -206,7 +206,7 @@ section {
 .cv_academico {
     position: relative;
     left: 500px;
-    bottom: 550px;
+    bottom: 0px;
 }
 
 
@@ -232,7 +232,7 @@ section {
     align-items: center;
     justify-content:center;
     flex-wrap: wrap;
-    margin-top: 292px;
+    margin-top: 470px;
     background-color: rgb(8, 8, 8);
 }
 
@@ -291,13 +291,15 @@ svg circle {
 
 footer {
     display: flex;
-    justify-content: center;   
+    justify-content: center; 
+    background-color: rgb(8, 8, 8);  
 }
 
 footer p {
     size: 5px;
     font-size:x-large;
     letter-spacing: 1px;
+    color: #fff;
 }
 
 .pie_dePagina {
