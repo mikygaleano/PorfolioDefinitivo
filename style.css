@@ -4,6 +4,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'Fuzzy Bubbles', curs;
 }
 
 body {
@@ -58,7 +59,6 @@ h2 {
 
 .nav_conteinerMenu a {
     text-decoration: none;
-    font-family: 'Fuzzy Bubbles', curs;
     color: black;
 }
 
@@ -230,12 +230,18 @@ section {
     height: 200px;
 }
 
+.conteiner_Contact span{
+    font-size: medium;
+}
+
 .conteiner_Contact p{
     display: flex;
     justify-content: center;
     position: relative;
     left: 5px;
     top: 300px;
+    text-align: center;
+    font-size: large;
 }
 
 /* form contacto */
@@ -243,6 +249,18 @@ section {
 .titulo_contact {
     position: relative;
     top: 250px;
+}
+
+hr {
+    size: 5px;
+    color: black;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20%;
+    top: 350px;
 }
 
 .form_contact {
@@ -253,10 +271,16 @@ section {
     align-items: center;
     position: relative;
     top: 400px;
+    font-size: medium;
 }
 
-.form_contact {
+.form_contact input{
     border: none;
+    border-radius: 5px;
+    background-color: rgb(201, 174, 166);;
+    color: black;
+    outline: none;
+    
 }
 
 .nombre input{
@@ -264,6 +288,7 @@ section {
     left: 450px;
     text-align: center;
 }
+
 
 .email input{
     width: 200px;
@@ -276,11 +301,34 @@ textarea {
     height: 400px;
     text-align: center;
     resize: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(201, 174, 166);;
+    color: black;
+    outline: none;
 }
 
 label {
     margin-bottom: 10px;
 }
+
+.btn_mensaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 45%;
+    top: 450px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.897);
+    color:white;
+    width: 80px;
+    height: 25px;
+
+}
+
+
 
 /* iconos rdes sociales inicio */
 
@@ -356,7 +404,7 @@ footer {
     justify-content: center;
     position: relative;
     bottom: 0;
-    top: 995px;
+    top: 1050px;
     background-color: rgb(8, 8, 8);  
 }
 
