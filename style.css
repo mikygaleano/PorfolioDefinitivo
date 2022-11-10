@@ -72,11 +72,11 @@ main
 /* Home */
 
 .conteiner_Home {
-    background-image: url('./img/fondo.jpg');
+   /* background-image: url('./img/fondo.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     position: absolute;
-    left: 0;
+    left: 0;*/
     display: flex;   
     justify-content: center;
 }
@@ -87,38 +87,31 @@ main
 }
 
 .home-parrafo {
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 250px;
+    display: inline-flex;
+    position: relative;
+    top: 250px;
+    right: 100px;
+    
 }
 
 .saludo {
     text-align: center;
     font-size:xx-large;
-    display: inline-flex;
-    position: relative;
-    bottom: 120px;
-    right: 50px; 
+     
 }
 
 .nombre {
     text-align: center;
     font-size:xx-large;
-    display: inline-flex;
-    position: relative;
-    bottom: 100px;
-    right: 50px;
+    
+    
 }
 
 
 
 /* Soy */
 
-.conteiner_soy {
-    margin-top: 600px;
-}
+
 
 
 
