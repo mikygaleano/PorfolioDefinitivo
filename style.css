@@ -86,6 +86,31 @@ main
     top: -200px;
 }
 
+.home-parrafo {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.saludo {
+    text-align: center;
+    font-size:xx-large;
+    display: inline-flex;
+    position: relative;
+    bottom: 120px;
+    right: 50px; 
+}
+
+.nombre {
+    text-align: center;
+    font-size:xx-large;
+    display: inline-flex;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
 
 
 
