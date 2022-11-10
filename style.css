@@ -7,64 +7,60 @@
     font-family: 'Fuzzy Bubbles', curs;
 }
 
+
 body {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     background-color: rgb(247, 214, 204);
-}
-
-
-a {
-    text-decoration: none;
-}
-
-h2 {
-    text-align: center;
-}
-/* Contenedor nav */
-.nav_conteiner {
     display: flex;
-    justify-content: end; /* Lo manda a la derecha */
-    position: sticky; /* Posición pegajosa */
-    top: 0; /* Arriba de todo */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* Contenedor nav */
+
+.nav_conteiner {
     width: 100%;
-    height: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
     background-color: rgb(247, 214, 204);
-    z-index: 10
+    z-index: 1;
 }
 
 /* Contenedor div Logo */
 
-.nav_conteinerLogo img{
-    width: 30%;
-    height: 200px;
-    align-items: center;
-    position: absolute; /* Posición absoluta dependiendo su padre  más cercano
-    relativo */
-    top: -50px;
-    left: 0px;
+.nav_conteinerLogo img {
+    width: 80px;
+    height: auto;
+    display: flex;
+    margin-left: 50px;
+
 }
+
 
 /* Contenedor nav Menu */
 
 .nav_conteinerMenu {
-    width: 50%; /* Ancho */
-    height: auto; /* Alto */
-    justify-items:center;
+    position: relative;
+    width: 30%;
+    height: auto;
     display: flex;
-    justify-content: space-around; /* Espacio entre el contenedor */
-    position: absolute;
-    right: 30px; /* Derecha */
-    top: 45px;
+    flex: content;
+    justify-content: right;
+    margin-right: 50px;
 }
 
 .nav_conteinerMenu a {
+    display: inline;
+    margin-left: 10px;
     text-decoration: none;
     color: black;
 }
 
-.nav_conteinerMenu a:hover {
-    background-color: rgba(207, 156, 140, 0.692);
-}
 
 /* Secciones de la web */
 
@@ -74,259 +70,42 @@ section {
 }
 
 /* Home */
+
 .conteiner_Home {
-    background-image: url(./img/fondo.jpg);
-    background-size: 100% 550px;
+    background-image: url('./img/fondo.jpg');
     background-repeat: no-repeat;
-    width: 100%;
-    height: 550px;
-    display: flex;
+    background-size:cover;
+    position: absolute;
+    left: 0;
+    display: flex;   
     justify-content: center;
 }
 
-/*.pc{
-    margin-right: 1000px;
-    margin-bottom: 100px;
-}*/
-
-.div_home1 {
-    width: 350px;
-    height: 350px;
-    display: flex;
-    justify-content:center;
-    justify-content:center;
-    align-items: center;
-    margin-left: -50px;
-    margin-top: 150px;
-    /*border-color: white;
-    border-radius: 300px;
-    background-color: rgba(255, 0, 149, 0.356);*/
+.conteiner_Home img{
     position: relative;
-    left: 0;
-    top: 0;
+    top: -200px;
 }
 
-.homeRetrato {
-    margin-top: -200px;
-    margin-left: px;
-   /* opacity: 0.75; */
-    position: absolute;
-    z-index: 1;
-}
-.homeRetrato2 {
-    margin-top: -200px;
-    margin-left: 50px;
-    /*opacity: 0.80;*/
-    position: absolute;
-}
 
-/*.div_home1 p {
-    color: rgb(3, 0, 0);
-    font-family:fantasy;
-    font-size: large;
-    text-align: center;
-    margin-top: 100px;
-}*/
 
-.div_home2 { 
-    width: 80px;
-    height: 80px;
-    border-radius: 80px;
-    background-color: rgba(24, 102, 175, 0.432);
-}
-
-/*.div_home {
-    background-color: rgba(180, 127, 202, 0.678);
-    width: 250px;
-    height: 250px;
-    border-radius: 250px;
-    display: block;
-    justify-content:center;
-    /*margin-top: 200px;
-    margin-left: 150px;
-    top: 200px;
-    left: 600px;
-    position: absolute;
-    /*margin-right: 350px;
-}*/
-
-.div_home p{
-    font-family:fantasy;
-    font-size: x-large;
-    text-align:center;
-    size: 90px;
-    width: 200px;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 15px;
-    align-self: center;
-    color: rgb(7, 7, 7);
-}
-
-.btn_action {
-    margin-top: 60px;
-    margin-left: 30%;
-    width: 100px;
-    height: 100px;
-    border: none;
-    border-radius: 100px;
-    background-color: rgba(255, 179, 80, 0.5);
-}
-
-.btn_action :hover{
-    background-color: rgba(204, 9, 9, 0.575);
-    border-radius: 100px;
-    
-}
-
-.btn_action a {
-    font-family: fantasy;
-    font-size:large;
-    color: rgb(7, 7, 7)
-}
 
 /* Soy */
 
-.conteiner_Am {
-    background-color: rgb(247, 214, 204);
-    height: 600px;
+
+.conteiner_Am h2{
+    border: solid red 5px;
 }
 
-.conteiner_Am h3{
-    color: rgb(10, 10, 1);
-}
-
-.soy_am {
-    width: 250px;
-    height: 645px;
-    margin-top: -25px;
-    margin-bottom: -5px;
-}
-
-.cv_academico {
-    position: relative;
-    left: 500px;
-    bottom: 0px;
-}
-
-
-.datos h3 {
-    color: rgb(8, 8, 8);
-    text-align: center;
-    position: relative;
-    top: 0;
-}
-
-
-.soy_am img{
-    position: relative;
-    margin-top: -120px;
-}
 
 /* Contacto */
 
-.conteiner_Contact {
-    width: 100%;
-    height: 200px;
-}
 
-.conteiner_Contact span{
-    font-size: medium;
-}
-
-.conteiner_Contact p{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 5px;
-    top: 300px;
-    text-align: center;
-    font-size: large;
-}
 
 /* form contacto */
 
-.titulo_contact {
-    position: relative;
-    top: 250px;
-}
-
-hr {
-    size: 5px;
-    color: black;
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 20%;
-    top: 350px;
-}
-
-.form_contact {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 400px;
-    font-size: medium;
-}
-
-.form_contact input{
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(201, 174, 166);;
-    color: black;
-    outline: none;
-    
-}
-
-.nombre input{
-    width: 100px;
-    left: 450px;
-    text-align: center;
-}
 
 
-.email input{
-    width: 200px;
-    left: 450px;
-    text-align: center;
-}
 
-textarea {
-    width: 500px;
-    height: 400px;
-    text-align: center;
-    resize: none;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(201, 174, 166);;
-    color: black;
-    outline: none;
-}
-
-label {
-    margin-bottom: 10px;
-}
-
-.btn_mensaje {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 45%;
-    top: 450px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.897);
-    color:white;
-    width: 80px;
-    height: 25px;
-
-}
 
 
 
@@ -398,26 +177,4 @@ svg circle {
 
 /* Pie de pagina */
 
-footer {
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 0;
-    top: 1050px;
-    background-color: rgb(8, 8, 8);  
-}
 
-footer p {
-    size: 5px;
-    font-size:x-large;
-    letter-spacing: 1px;
-    color: #fff;
-    position: relative;
-    top: 5px;
-}
-
-.pie_dePagina {
-    width: 12px;
-    height: 12px;
-}
