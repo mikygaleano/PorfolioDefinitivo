@@ -15,7 +15,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
 /* Contenedor nav */
@@ -63,11 +62,12 @@ body {
 
 
 /* Secciones de la web */
-
 section {
     width: 100%;
     height: 600px;
 }
+
+main
 
 /* Home */
 
@@ -91,10 +91,10 @@ section {
 
 /* Soy */
 
-
-.conteiner_Am h2{
-    border: solid red 5px;
+.conteiner_soy {
+    margin-top: 600px;
 }
+
 
 
 /* Contacto */
