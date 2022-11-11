@@ -11,18 +11,27 @@
 
     </head>
     <body>
-        <nav class="nav_conteiner">
-            <div class="nav_conteinerLogo">
-                <img src="img\logo.png" alt="Logo">
-            </div>
-            <div class="nav_conteinerMenu">
-                <a href="#home">Inicio</a>
-                <a href="#am">Conoceme</a>
-                <a href="#porfolio">Portafolio</a>
-                <a href="#services">Servicios</a>
-                <a href="#contact">Contacto</a>
-            </div>
-        </nav>
+        <header class="main-header">
+            <nav class="nav_conteiner ">
+                <div class="nav_conteinerLogo main-logo">
+                    <img src="img\logo.png" alt="Logo">
+                </div>
+                <div class="nav-links nav_conteinerMenu">
+                    <a class="link-item" href="#home">Inicio</a>
+                    <a class="link-item" href="#am">Conoceme</a>
+                    <a class="link-item" href="#porfolio">Portafolio</a>
+                    <a class="link-item" href="#services">Servicios</a>
+                    <a class="link-item" href="#contact">Contacto</a>
+                </div>
+                <button class="button-menu hamburgue">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                </button>
+            </nav>
+        </header>
+        
         <main>
             <section class="conteiner_Home" id="home">
                 <div class="div_home">
@@ -83,5 +92,6 @@
             <!--<p>Echo con mucho amor <img class="pie_dePagina"
             src="./img/Love.ico" alt="icon_Love"> copyright © 2022 Maikii</p>-->
         </footer>
+        <script src="./index.js"></script>
     </body>
     </html>

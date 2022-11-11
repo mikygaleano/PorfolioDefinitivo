@@ -17,6 +17,10 @@ body {
     align-items: center;
 }
 
+/* header */
+
+ 
+
 /* Contenedor nav */
 
 .nav_conteiner {
@@ -36,7 +40,7 @@ body {
     width: 80px;
     height: auto;
     display: flex;
-    margin-left: 50px;
+    margin-left: 20px;
 
 }
 
@@ -60,6 +64,11 @@ body {
     color: black;
 }
 
+/* menu respon */
+
+
+
+/**/
 
 /* Secciones de la web */
 section {
@@ -67,7 +76,7 @@ section {
     height: 600px;
 }
 
-main
+
 
 /* Home */
 
@@ -90,19 +99,21 @@ main
     display: inline-flex;
     position: relative;
     top: 250px;
-    right: 100px;
+    right: 150px;
     
 }
 
 .saludo {
     text-align: center;
-    font-size:xx-large;
+    font-size: 2rem;
+    font-weight: bolder;
      
 }
 
 .nombre {
     text-align: center;
-    font-size:xx-large;
+    font-size: 2rem;
+    font-weight: bolder;
     
     
 }
