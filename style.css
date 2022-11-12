@@ -70,49 +70,67 @@ h2 {
     color: black;
 }
 
-/* menu respon */
+/* menu respon inicio */
 .button-menu {
-    margin-left: 100px;
-    position: relative;
-    left: 100px;;
-}
-.button-menu {
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 30px;
-}
-.button-menu hr {
-    width: 30px;
-    margin-top: 4px;
-    margin-left: 9px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px;
-    cursor: pointer;
+    overflow: hidden;
 }
 
-
-@media screen and (max-width: 860px) {
+@media (max-width: 790px) {
     
+
+    .main-header {
+        height: 40px;  
+    }
+     
+    
+    /* Contenedor nav */
+    
+    .nav_conteiner {
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
+    
+    /* Contenedor div Logo */
+    
+    .nav_conteinerLogo img {
+        line-height: 40px;
+    }
+    
+
     .nav_conteinerMenu {
-        display: none;
+        flex-direction: column;
+        background-color: rgba(241, 233, 233, 0.829);
+        position: fixed;
+        top: 40px;
+        width: 100%;
+        align-items: center;
+        padding: 20px 0;
+        height: calc(100% - 40px);
+        overflow-y: auto;
+        left: 100%;
+        transition: 1s;
     }
-}
-
-@media screen and (min-width: 860px){
-
+    
+    .nav_conteinerMenu a {
+        padding: 35px;
+    }
     .button-menu {
-        visibility: hidden;;
+        position: fixed;
+        right: 100px;
+        border: none;
+        border-radius: 30px;
+        width: 25px;
+        height: 25px;
     }
-
-
+    
+    .visible {
+        left: 0;
+    } 
 }
+/* menu respon final */
 
 
-
-/**/
 
 /* Secciones de la web */
 section {
