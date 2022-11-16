@@ -6,8 +6,41 @@
     margin: 0px;
     font-family: 'Fuzzy Bubbles', curs;
 }
+
  :root {
     --color-principal:  rgb(247, 214, 204);
  }
 
+ /* header menu y logo inicio */
+.header-menu {
+    position:sticky;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 5rem;
+    background-color: var(--color-principal);
+}
 
+
+.nav-menu {
+    margin-right: 1rem;
+    width: 80vh;
+}
+    
+
+.img-logo {
+    width: 8rem;
+    height: auto;
+    margin-left: 10rem;
+}
+
+.link-item {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* header menu y logo final */
