@@ -5,6 +5,7 @@ $btnHamburguer = document.querySelector('.btn-hamburguer'),
 $linkMenu = document.getElementsByClassName('link-item');
 
 /* funciones */
+/* Menu hamburguesa */
 function hamburguer () {
     $btnHamburguer.addEventListener('click', () => {
         $navMenu.classList.toggle('colapse')
