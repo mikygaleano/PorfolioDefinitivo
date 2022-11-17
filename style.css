@@ -26,8 +26,9 @@
 
 
 .nav-menu {
-    margin-right: 1rem;
+    gap: 2rem;
     width: 80vh;
+    position: relative;
 }
     
 
@@ -43,4 +44,60 @@
     font-weight: bold;
 }
 
+.btn-hamburguer {
+    visibility: hidden;
+}
+
+
+/* response menu hamburguer inicio */
+
+@media (max-width: 780px) {
+
+    .btn-hamburguer {
+        visibility: visible;
+        position: sticky;
+        width: 5rem;
+        height: 5rem;
+        border: none;
+        border-radius: 50%;
+        margin-right: 5rem;
+    }
+    .nav-menu a{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .nav-menu {
+        position: relative;
+        background-color: rgb(195, 21, 201);
+        width: 600px;
+        height: 600px;
+        margin: auto;
+        padding-top: 5rem;
+        left: 100%;
+        transition: all 0.7s;
+    }
+
+    .colapse {
+        left: 0vmin;
+    }
+    
+}
+/* responsil menu hamburguer final */
+ 
 /* header menu y logo final */
+
+/* secciones inicio */
+
+section {
+    width: 100vh;
+    height: 600px;
+}
+
+.seccion h3{
+    text-align: center;
+}
+
+/* secciones final */
