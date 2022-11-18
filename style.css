@@ -98,6 +98,9 @@
         left: 100%;
         transition: all 2s;
     }
+    .img-logo {
+        margin-left: 3rem;
+    }
 
     .colapse {
         left: 0;
