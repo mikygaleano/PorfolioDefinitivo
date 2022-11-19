@@ -22,7 +22,7 @@
     margin: auto;
     width: 100%;
     height: 5rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color-principal);
     z-index: 1;
 }
 
@@ -64,18 +64,17 @@
         /*border-radius: 50%;*/
         margin-right: 5rem;
        /* background-color: rgb(0, 0, 0);*/
-        background-color: rgb(255, 255, 255);
-    }
-
-    .btn-hamburguer hr {
-        padding: 5px;
-        padding: auto;
-        border: solid rgb(0, 0, 0) 2px;
-        border-top: 0ch;
-        border-left: 0ch;
-        border-right: 0ch;
+        background-color: var(--color-principal);
         cursor: pointer;
     }
+
+    .btn-hamburguer span {
+        width: 25px;
+        height: 4px;
+        background-color: black;
+        display:inline-block;
+    }
+
 
     .nav-menu a{
         padding: 1rem;
@@ -83,6 +82,7 @@
         align-items: center;
         justify-content: center;
         margin-left: -100px;
+        color: white;
     }
 
 
@@ -123,18 +123,15 @@ section {
 /* Home inicio */
 
 .section-1 {
-    background-image: url(./img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+
+    background-color: rgba(247,212,204,3);
 }
 
 .img-inicio {
     max-width: 20rem;
     position: relative;
-    bottom: -5px;
+    left: 180px;
+    top: 173px;
 }
 
 .parrafo-inicio {
