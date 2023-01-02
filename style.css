@@ -65,15 +65,22 @@ section {
 
 .section-1 {
     height: 600px;
-    background-image: url(/img/black.png);
+    background-image: url(img/black.png);
     object-fit: cover;
 }
 
 
-.img-inicio {
+.img-inicio-1 {
     max-width: 20rem;
     position: relative;
     left: 180px;
+    top: 173px;
+}
+
+.img-inicio-2 {
+    max-width: 20rem;
+    position: absolute;
+    left: 120px;
     top: 173px;
 }
 
@@ -101,7 +108,12 @@ section {
 
 
 @media (max-width: 780px) {
-    
+    .img-inicio-2 {
+        max-width: 20rem;
+        position: absolute;
+        left: 120px;
+        top: 272px;
+    }
     .parrafo-inicio {
         right: 100px;
     }
@@ -174,7 +186,7 @@ section {
         
     }
 
-    .img-inicio {
+    .img-inicio-1 {
         max-width: 20rem;
         position: relative;
         left: 180px;
