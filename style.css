@@ -154,3 +154,34 @@ section {
         left: 0;
     }
 }
+
+@media (max-width: 600px) {
+    .header-menu {
+        height: 10rem;
+    }
+
+    .img-logo {
+        width: 50%;
+        height: 100%;
+    }
+
+    .nav-menu {
+        top: 12rem;
+        gap: 2rem;
+    }
+    .section-1 {
+        height: 700px;
+        
+    }
+
+    .img-inicio {
+        max-width: 20rem;
+        position: relative;
+        left: 180px;
+        top: 273px;
+    }
+
+    .conteiner-presentacio {
+        top: 200px;
+    }
+}
