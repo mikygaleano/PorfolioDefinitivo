@@ -1,7 +1,8 @@
 
 const d = document,
 btnHamburg = d.querySelector('.btn-hamburg'),
-panelMenuMobile = d.querySelector('.menu-mobile');
+panelMenuMobile = d.querySelector('.menu-mobile'),
+itemMenu = d.getElementsByClassName('item-menu');
 
 
 function menuHamburg () {
@@ -14,7 +15,15 @@ function menuHamburg () {
     });
 }
 
+function linkMenu () {
+    for (element of itemMenu) {
+        element.addEventListener('click', () => panelMenuMobile.classList.add('add-colapse'))
+    }
+}
+
 
 d.addEventListener('DOMContentLoaded', () => {
     menuHamburg();
 })
+
+linkMenu();

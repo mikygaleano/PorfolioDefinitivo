@@ -38,7 +38,7 @@ nav a, li{
 
 
 .menu-mobile {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -47,7 +47,7 @@ nav a, li{
     bottom: 0;
     top: 4.3rem;
     padding: 2rem;
-    background-color: rgba(169, 169, 169, 0.747);
+    background-color: rgb(169, 169, 169);
     transition: all 50ms;
 }
 
@@ -70,6 +70,7 @@ nav a, li{
 }
 
 .btn-hamburg {
+    width: 1rem;
     visibility: hidden;
     background-color: white;
     position: absolute;
@@ -106,7 +107,14 @@ h1 {
     nav {
         visibility: hidden;
     }
-    header {
-        width: 90%;
+    .menu-mobile {
+        display: flex;
+    }
+    .btn-hamburg {
+        right: 80rem;
+    }
+    header a img{
+        width: 6rem;
+        margin: auto 10rem;
     }
 }
