@@ -6,6 +6,7 @@
 /*:root {
 
 }*/
+/* header */
 
 header {
     position: fixed;
@@ -24,6 +25,7 @@ header a img{
     margin: auto;
 }
 
+/* navbar */
 
 nav ul{
     display: flex;
@@ -36,7 +38,7 @@ nav a, li{
     color: black;
 }
 
-
+/* hamburg menu */
 .menu-mobile {
     display: none;
     justify-content: center;
@@ -98,8 +100,10 @@ h1 {
     padding: 5rem;
 }
 
+/* mobile */
 
 @media (max-width: 780px) {
+    /* hamburg menu */
     .btn-hamburg {
         visibility: visible;
         cursor: pointer;
@@ -110,17 +114,10 @@ h1 {
     .menu-mobile {
         display: flex;
     }
-    .btn-hamburg {
-        right: 80rem;
-    }
-    header a img{
-        width: 6rem;
-        margin: auto 10rem;
+    
+    /* header */
+    header {
+        justify-content: center;
     }
 }
 
-@media (max-width: 320px) {
-    header {
-        width: 320px;
-    }
-}
