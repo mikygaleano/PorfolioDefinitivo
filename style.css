@@ -18,7 +18,6 @@ header {
     background-color: white;
     margin: auto;
     padding: 10px;
-    border-bottom: solid 1px rgba(114, 113, 113, 0.733);
 }
 
 header a img{
@@ -94,5 +93,8 @@ nav a, li{
     }
     nav {
         visibility: hidden;
+    }
+    header {
+        width: 90%;
     }
 }
