@@ -118,3 +118,9 @@ h1 {
         margin: auto 10rem;
     }
 }
+
+@media (max-width: 320px) {
+    header {
+        width: 320px;
+    }
+}
