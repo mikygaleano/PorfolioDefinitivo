@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*:root {
+
+}*/
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-bottom: solid 1px rgba(114, 113, 113, 0.733);
+}
+
+header a img{
+    width: 6rem;
+    margin: auto;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content:space-around;
+    gap: 1rem;
+}
+nav a, li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 4.3rem;
+    padding: 2rem;
+    background-color: rgba(169, 169, 169, 0.747);
+    transition: all 50ms;
+}
+
+.add-colapse {
+    visibility: hidden;
+    transition: all 50ms;
+}
+
+.menu-mobile a, li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.menu-mobile li{
+    padding: 3rem;
+}
+
+.btn-hamburg {
+    visibility: hidden;
+    background-color: white;
+    position: absolute;
+    left: 25rem;
+}
+
+.btn-hamburg span{
+    border:thick solid black;
+    position: relative;
+    padding: 2px;
+}
+
+
+
+
+@media (max-width: 780px) {
+    .btn-hamburg {
+        visibility: visible;
+        cursor: pointer;
+    }
+    nav {
+        visibility: hidden;
+    }
+}
