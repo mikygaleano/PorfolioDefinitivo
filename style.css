@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 /*:root {
@@ -80,10 +79,23 @@ nav a, li{
 .btn-hamburg span{
     border:thick solid black;
     position: relative;
+    border-top: none;
+    border-bottom: none;
     padding: 2px;
 }
 
 
+
+section {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    padding: 5rem;
+}
 
 
 @media (max-width: 780px) {
