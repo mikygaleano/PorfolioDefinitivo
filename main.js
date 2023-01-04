@@ -15,6 +15,6 @@ function menuHamburg () {
 }
 
 
-window.addEventListener('DOMContentLoaded', () => {
+d.addEventListener('DOMContentLoaded', () => {
     menuHamburg();
 })
