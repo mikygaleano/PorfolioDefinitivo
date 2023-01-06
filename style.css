@@ -14,7 +14,7 @@
 
 header {
     position: fixed;
-    width: 100%;
+    width: 1280px;
     height: 3rem;
     display: flex;
     justify-content: space-around;
@@ -94,13 +94,12 @@ nav li:nth-child(1) a, .menu-mobile li:nth-child(1) a{
 
 .title {
     width: 80%;
+    display:block;
+    justify-content:center;
+    align-items: center;
     position: relative;
-    top: 8rem;
-    left: 2rem;
-    display: flex;
-    justify-content:space-between;
-    z-index: 1;
-    gap: 2rem;
+    top: 10rem;
+    left: 5rem;
     margin: auto;
 }
 .title h1{
@@ -109,12 +108,17 @@ nav li:nth-child(1) a, .menu-mobile li:nth-child(1) a{
     font-weight: bold;
     -webkit-text-stroke: 0.7px var(--color-yellow);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--color-red);
-    position: relative;
-    top: 5rem;
-    left: -50px;
+    margin-bottom: 5rem;
 }
 .title button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     border-radius: 25px;
     border: solid 2px var(--color-yellow);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -122,52 +126,27 @@ nav li:nth-child(1) a, .menu-mobile li:nth-child(1) a{
     font-size:medium;
     color: var(--color-yellow);
     text-align: center;
-    padding: 0.5rem;
-    position: relative;
-    top: 15rem;
     width: 10rem;
     height: 2.5rem;
     background-color: var(--color-red);
     cursor: pointer;
 }
 .home {
-    background-image: url(img/fondo/grieta.jpg);
+    display: flex;
+    justify-content: space-around;
+    background-image: url(img/fondo/black.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    width: 1280px;
     height: 700px;
 }
 
-
-.conteiner-home {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 2.7rem;
-}
-
-.circulo {
-    background-color: var(--color-yellow);
-    width: 25rem;
-    height: 25rem;
-    border-radius: 50%;
-    border: solid 2px var(--color-red);
-    position: absolute;
-    top: 6rem;
-}
-
-.image-home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .image-home img{
-    width: 35rem;
+    width: 45rem;
     position: absolute;
-    bottom: -2.7rem;
+    bottom: 50px;
+    left: 20px;
 }
 
 /* section I am */
@@ -191,7 +170,7 @@ nav li:nth-child(1) a, .menu-mobile li:nth-child(1) a{
     }
 
     .menu-mobile {
-        display: flex;
+        display: block;
     }
     
     
@@ -200,8 +179,15 @@ nav li:nth-child(1) a, .menu-mobile li:nth-child(1) a{
         justify-content: center;
         align-items: center;
     }
+
+    /* home */
+    .home {
+        height: 500px;
+    }
     .image-home img{
-        bottom: 3.5rem;
+        width: 40rem;
+        bottom: 35rem;
+        left: 0;
     }
     .circulo {
         width: 25rem;
